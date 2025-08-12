@@ -24,6 +24,7 @@
 
         {% for taxonomy_name in sorted_taxonomies %}
         {% set terms = page.taxonomies[taxonomy_name] %}
+        {% if not terms %}{% continue %}{% endif %}
         - {{ taxonomy_name | capitalize }}:
         {% for term_name in terms %}
         {% set term = get_taxonomy_term(kind=taxonomy_name, term=term_name) %}
