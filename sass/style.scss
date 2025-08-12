@@ -56,6 +56,13 @@ pre {
 
     code {
         padding: 0;
+        min-width: 100%;
+        display: inline-block;
+    }
+
+    mark {
+        display: block;
+        width: 100%;
     }
 }
 
