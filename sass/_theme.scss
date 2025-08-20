@@ -123,6 +123,14 @@ pre {
         background-color: transparent;
     }
 
+    table tr:nth-child(even) {
+        background-color: transparent;
+    }
+
+    table td:first-child {
+        color: var(--code-tertiary);
+    }
+
     &[data-name]::before {
         background-color: var(--code-tertiary);
         color: var(--code-secondary);
