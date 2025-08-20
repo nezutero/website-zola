@@ -20,6 +20,11 @@
     --table-row: #1e1e1e;
 }
 
+:root {
+    --code-secondary: #999999;
+    --code-tertiary: #99999944;
+}
+
 :root.light-mode {
     @include light-theme;
 
@@ -113,8 +118,15 @@ code {
     background-color: var(--tertiary);
 }
 
-pre code {
-    background-color: transparent;
+pre {
+    code {
+        background-color: transparent;
+    }
+
+    &[data-name]::before {
+        background-color: var(--code-tertiary);
+        color: var(--code-secondary);
+    }
 }
 
 .footnote-definition sup {
