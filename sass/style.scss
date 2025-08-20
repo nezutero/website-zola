@@ -85,27 +85,12 @@ pre {
 }
 
 table {
-    border-spacing: 0;
+    border-collapse: collapse;
 
     th, td {
         border-width: 1px;
         border-style: solid;
-        border-left-style: none;
         padding: 0.2em;
-
-        &:first-child {
-            border-left-width: 1px;
-            border-left-style: solid;
-        }
-    }
-
-    th {
-        border-top-width: 1px;
-        border-top-style: solid;
-    }
-
-    td {
-        border-top-style: none;
     }
 }
 
