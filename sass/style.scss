@@ -87,13 +87,14 @@ pre {
     }
 
     &[data-name] {
+        padding-top: 1.8em;
         position: relative;
     }
 
     &[data-name]::before {
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
 
         padding-inline: 0.3em;
 
