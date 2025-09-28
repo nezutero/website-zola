@@ -4,4 +4,4 @@ title = "About"
 extra.in_header = true
 +++
 
-Hook is a theme for [Zola](https://getzola.org), a static site generator.
+My name is Dimitri. I’m a software engineer who loves tech, construct high-performance projects, delve into the intricacies of memory, and ultimately engineer remarkable software — and many other things.

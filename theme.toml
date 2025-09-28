@@ -1,10 +1,9 @@
-name = "Hook"
-description = "Clean and simple personal site/blog theme"
+name = "nezutero"
+description = "Software Engineer, human."
 license = "MIT"
-homepage = "https://github.com/InputUsername/zola-hook"
+homepage = "https://github.com/nezutero/nezutero.dev"
 min_version = "0.19.0"
-demo = "https://inputusername.github.io/zola-hook/"
 
 [author]
-name = "Koen Bolhuis"
-homepage = "https://koen.bolhu.is"
+name = "nezutero"
+homepage = "https://nezutero.dev"

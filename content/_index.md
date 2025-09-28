@@ -1,4 +1,4 @@
 +++
 +++
 
-Hi! Welcome to Hook! Hook is a Zola theme.
+Try, fail, retry. That’s the rhythm of growth.
